@@ -1,11 +1,11 @@
 Latihan menjalankan perintah SQL (6)
 
 INSERT INTO Employee (id_emp, name_emp, age) 
-VALUES ('123', 'Budi B', 21);
-		('234', 'Dani', 23),
-		('134', 'Budi A', 24),
-		('144', 'Intan', 20),
-		('255', 'Budi W', 25);
+VALUES ('123', 'Budi B', 21),
+	('234', 'Dani', 23),
+	('134', 'Budi A', 24),
+	('144', 'Intan', 20),
+	('255', 'Budi W', 25);
 
 SELECT * FROM Employee WHERE name_emp = 'Budi' AND age > 21;
 
