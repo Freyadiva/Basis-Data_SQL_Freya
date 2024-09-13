@@ -1,7 +1,7 @@
 Latihan menjalankan perintah SQL (3)
 
-ALTER TABLE Employee 
-ADD CONSTRAINT pk_employee PRIMARY KEY (id_emp);
+ALTER TABLE Employee
+ADD PRIMARY KEY (id_emp);
 
 INSERT INTO Employee (id_emp, name_emp, age)
 VALUES ('123', 'Arief', 24);
