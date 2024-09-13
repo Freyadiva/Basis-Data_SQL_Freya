@@ -1,5 +1,9 @@
 Latihan menjalankan perintah SQL (2)
 
+SELECT ROWID, * FROM employee WHERE id_emp = 123;
+
+DELETE FROM employee WHERE ROWID = 4;
+
 SELECT * FROM Employee;
 
 INSERT INTO Employee (id_emp, name_emp, age)
