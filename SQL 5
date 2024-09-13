@@ -2,8 +2,8 @@ Latihan menjalankan perintah SQL (5)
 
 INSERT INTO Employee (id_emp, name_emp, age)
 VALUES ('211', 'Mulya', 21),
-	  	('212', 'Dewi', 22),
-	  	('213', 'Ayu', 23);
+	('212', 'Dewi', 22),
+	('213', 'Ayu', 23);
 SELECT * FROM Employee;
 
 START TRANSACTION; -- Digunkanakan agar ROLLBACK bisa digunakan, bila tidak segala perubahan akan disimpan secara permanen.
