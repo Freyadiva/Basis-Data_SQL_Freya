@@ -1,11 +1,3 @@
 Latihan menjalankan perintah SQL (2)
 
-SELECT ROWID, * FROM Employee WHERE id_emp = 123;
-
-DELETE FROM Employee WHERE ROWID = 4;
-
-SELECT * FROM Employee;
-
-INSERT INTO Employee (id_emp, name_emp, age)
-VALUES (234, 'Andi', 23);
 --Data pada baris kedua tidak dapat di-update karena belum memiliki primary key, sehingga untuk mengubah data hanya bisa melalui DELETE dan INSERT.
