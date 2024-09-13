@@ -1,0 +1,6 @@
+SOAL 2
+SELECT * FROM Employee;
+
+UPDATE Employee 
+SET name_emp = 'Arief', age = 24 
+WHERE id_emp = '234';
