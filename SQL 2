@@ -1,3 +1,6 @@
 Latihan menjalankan perintah SQL (2)
 
 --Data pada baris kedua tidak dapat di-update karena belum memiliki primary key, sehingga untuk mengubah data hanya bisa melalui DELETE dan INSERT.
+--Kita mungkin hanya dapat menggunakan perintah insert.
+INSERT INTO Employee(id_emp, name_emp, age)
+VALUES ("234", "Andi", 23);
