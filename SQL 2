@@ -1,8 +1,8 @@
 Latihan menjalankan perintah SQL (2)
 
-SELECT ROWID, * FROM employee WHERE id_emp = 123;
+SELECT ROWID, * FROM Employee WHERE id_emp = 123;
 
-DELETE FROM employee WHERE ROWID = 4;
+DELETE FROM Employee WHERE ROWID = 4;
 
 SELECT * FROM Employee;
 
