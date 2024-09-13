@@ -1,0 +1,10 @@
+INSERT INTO Employee (id_emp, name_emp, age) VALUES ('211', 'Mulya', 21);
+INSERT INTO Employee (id_emp, name_emp, age) VALUES ('212', 'Dewi', 22);
+INSERT INTO Employee (id_emp, name_emp, age) VALUES ('213', 'Ayu', 23);
+SELECT * FROM Employee;
+
+DELETE FROM Employee;
+SELECT * FROM Employee;
+//Tampilan yang kosong menandakan bahwa data telah terhapus.
+
+ROLLBACK;
