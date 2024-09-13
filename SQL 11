@@ -1,0 +1,5 @@
+Tampilkan Nama Golongan untuk masing-masing employee  (11)
+
+SELECT e.id_emp, e.name_emp, e.age, g.Gol_name
+FROM Employee e
+JOIN golongan g ON e.gol = g.Gol;
