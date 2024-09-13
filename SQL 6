@@ -1,3 +1,5 @@
+Latihan menjalankan perintah SQL (6)
+
 INSERT INTO Employee (id_emp, name_emp, age) VALUES ('123', 'Budi B', 21);
 INSERT INTO Employee (id_emp, name_emp, age) VALUES ('234', 'Dani', 23);
 INSERT INTO Employee (id_emp, name_emp, age) VALUES ('134', 'Budi A', 24);
