@@ -1,4 +1,5 @@
-SOAL 1
+Latihan menjalankan perintah SQL (1)
+
 CREATE TABLE employee (
 id_emp varchar(5),
 name_emp varchar(50),
