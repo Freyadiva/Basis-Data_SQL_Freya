@@ -1,7 +1,8 @@
-SOAL 3
+Latihan menjalankan perintah SQL (3)
+
 ALTER TABLE Employee 
 ADD CONSTRAINT pk_employee PRIMARY KEY (id_emp);
 
 INSERT INTO Employee (id_emp, name_emp, age)
 VALUES ('123', 'Arief', 24);
-//Terjadi kesalahan karena id_emp sudah menjadi Primary Key yang harus unik.
+--Terjadi kesalahan karena id_emp sudah menjadi Primary Key yang harus unik.
