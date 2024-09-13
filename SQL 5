@@ -6,6 +6,7 @@ VALUES ('211', 'Mulya', 21),
 	  	('213', 'Ayu', 23);
 SELECT * FROM Employee;
 
+START TRANSACTION; -- Digunkanakan agar ROLLBACK bisa digunakan, bila tidak segala perubahan akan disimpan secara permanen.
 DELETE FROM Employee;
 SELECT * FROM Employee;
 --Tampilan yang kosong menandakan bahwa data telah terhapus.
