@@ -2,6 +2,6 @@ Latihan menjalankan perintah SQL (2)
 
 SELECT * FROM Employee;
 
-UPDATE Employee 
-SET name_emp = 'Arief', age = 24 
-WHERE id_emp = '234';
+INSERT INTO Employee (id_emp, name_emp, age)
+VALUES (234, 'Andi', 23);
+--Data pada baris kedua tidak dapat di-update karena belum memiliki primary key, sehingga untuk mengubah data hanya bisa melalui DELETE dan INSERT.
