@@ -9,4 +9,4 @@ VALUES ('134', 'Arief', 24),
 DELETE FROM Employee WHERE id_emp = '123';
 DELETE FROM Employee WHERE name_emp = 'Intan';
 DELETE FROM Employee WHERE age = 21;
---Data "Intan" dan data dengan age = 21 (yaitu "Ayu") akan terhapus. Jadi, hasil akhirnya adalah hanya "Arief" yang akan tersisa dalam tabel. Data tersisa hanyalah id_emp: 134, name_emp: Arief, age: 24.
+--Data dengan "123", "Intan", dan age = 21 akan terhapus. Jadi, hasil akhirnya adalah hanya "Arief" dan "Andi
