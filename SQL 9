@@ -1,0 +1,32 @@
+Menambahkan data ke kolom tertentu saja (9)
+
+START TRANSACTION;
+INSERT INTO Employee (id_emp, name_emp, age)
+VALUES (301, 'Eko', 30);
+
+-- Jika ingin membatalkan operasi
+ROLLBACK;
+
+-- Jika ingin melanjutkan dan menyimpan perubahan
+-- COMMIT;
+
+Menambahkan Foreign Key pada table (10)
+
+CREATE TABLE golongan (
+    Gol CHAR(1) PRIMARY KEY,  
+    Gol_name VARCHAR(50)     
+);
+
+INSERT INTO golongan (Gol, Gol_name)
+VALUES
+('I', 'Golongan I'),
+('II', 'Golongan II'),
+('III', 'Golongan III'),
+('IV', 'Golongan IV');
+
+ALTER TABLE Employee
+ADD CONSTRAINT fk_golongan
+FOREIGN KEY (gol) REFERENCES golongan(Gol);
+
+SELECT * FROM Employee;
+SELECT * FROM golongan;
