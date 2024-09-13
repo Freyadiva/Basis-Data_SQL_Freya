@@ -1,0 +1,20 @@
+Menggunakan SELECT untuk menambahkan beberapa baris data dari table lain (8)
+
+--Tabel baru
+CREATE TABLE Employee_Backup (
+    id_emp INT,
+    name_emp VARCHAR(50),
+    age INT
+);
+
+INSERT INTO Employee_Backup (id_emp, name_emp, age)
+VALUES (201, 'Budi', 27),
+       (202, 'Citra', 22),
+       (203, 'Dian', 24);
+
+INSERT INTO Employee (id_emp, name_emp, age)
+SELECT id_emp, name_emp, age
+FROM Employee_Backup
+WHERE age > 23;
+
+SELECT * FROM Employee;
