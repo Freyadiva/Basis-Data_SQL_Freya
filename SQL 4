@@ -1,10 +1,12 @@
+Latihan menjalankan perintah SQL (4)
+
 INSERT INTO Employee (id_emp, name_emp, age)
 VALUES ('134', 'Arief', 24), 
        ('144', 'Intan', 20), 
        ('155', 'Ayu', 21);
-//Setelah data di atas ditambahkan, ketiga baris baru akan muncul dalam tabel Employee. Kesimpulannya adalah data berhasil ditambahkan tanpa ada kesalahan, asalkan tidak ada konflik dalam primary key.
+--Setelah data di atas ditambahkan, ketiga baris baru akan muncul dalam tabel Employee. Kesimpulannya adalah data berhasil ditambahkan tanpa ada kesalahan, asalkan tidak ada konflik dalam primary key.
 
 DELETE FROM Employee WHERE id_emp = '123';
 DELETE FROM Employee WHERE name_emp = 'Intan';
 DELETE FROM Employee WHERE age = 21;
-//Data "Intan" dan data dengan age = 21 (yaitu "Ayu") akan terhapus. Jadi, hasil akhirnya adalah hanya "Arief" yang akan tersisa dalam tabel. Data tersisa hanyalah id_emp: 134, name_emp: Arief, age: 24.
+--Data "Intan" dan data dengan age = 21 (yaitu "Ayu") akan terhapus. Jadi, hasil akhirnya adalah hanya "Arief" yang akan tersisa dalam tabel. Data tersisa hanyalah id_emp: 134, name_emp: Arief, age: 24.
