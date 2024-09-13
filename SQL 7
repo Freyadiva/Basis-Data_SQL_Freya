@@ -1,0 +1,17 @@
+ALTER TABLE Employee ADD gol VARCHAR(5);
+
+UPDATE Employee SET gol = 'I' WHERE id_emp = '123';
+UPDATE Employee SET gol = 'II' WHERE id_emp = '234';
+UPDATE Employee SET gol = 'III' WHERE id_emp = '134';
+UPDATE Employee SET gol = 'II' WHERE id_emp = '144';
+UPDATE Employee SET gol = 'I' WHERE id_emp = '155';
+// Jika tidak menggunakan WHERE condition semua baris di tabel akan diperbarui dengan nilai yang ditentukan. Artinya, setiap baris akan mengalami perubahan, bukan hanya baris tertentu.
+
+Latihan penggunaan 
+BETWEEN (numerik) = SELECT * FROM Employee WHERE age BETWEEN 22 AND 24;
+NOT BETWEEN = SELECT * FROM Employee WHERE age NOT BETWEEN 20 AND 25;
+BETWEEN (varchar) = SELECT * FROM Employee WHERE name_emp BETWEEN 'A' AND 'M';
+IN = SELECT * FROM Employee WHERE age IN (20, 23);
+NOT IN = SELECT * FROM Employee WHERE age NOT IN (21, 23);
+LIKE = SELECT * FROM Employee WHERE name_emp LIKE 'I%';
+AND = SELECT * FROM Employee WHERE age > 20 AND name_emp LIKE 'A%';
