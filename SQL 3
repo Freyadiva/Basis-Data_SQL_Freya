@@ -3,6 +3,7 @@ Latihan menjalankan perintah SQL (3)
 ALTER TABLE Employee
 ADD PRIMARY KEY (id_emp);
 
+--Untuk menambahkan data 
 INSERT INTO Employee (id_emp, name_emp, age)
 VALUES ('123', 'Arief', 24);
 --Terjadi kesalahan karena id_emp sudah menjadi Primary Key yang harus unik.
