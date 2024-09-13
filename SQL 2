@@ -1,4 +1,5 @@
-SOAL 2
+Latihan menjalankan perintah SQL (2)
+
 SELECT * FROM Employee;
 
 UPDATE Employee 
